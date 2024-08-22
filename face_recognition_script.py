@@ -7,7 +7,7 @@ known_face_encoding = face_recognition.face_encodings(known_image)[0]
 
 # Lista de codificações faciais conhecidas e seus nomes
 known_face_encodings = [known_face_encoding]
-known_face_names = ["Nome da Pessoa Conhecida"]
+known_face_names = ["Nome da Pessoa"]
 
 # Abrir o arquivo de vídeo
 video_capture = cv2.VideoCapture("video.mp4")
