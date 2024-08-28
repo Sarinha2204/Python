@@ -1,5 +1,5 @@
 from datetime import datetime
-from worksheet import worksheet
+from useless.worksheet import worksheet
 
 class CameraModel:
     def __init__(self, id, nome, status, url, bloco, descricao, ultima_atualizacao):

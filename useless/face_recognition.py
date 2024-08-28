@@ -1,5 +1,5 @@
 import cv2
-import face_recognition
+import useless.face_recognition as face_recognition
 
 # Carregar imagem conhecida e obter a codificação facial
 known_image = face_recognition.load_image_file("known_person.jpg")
